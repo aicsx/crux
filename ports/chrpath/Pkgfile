@@ -1,0 +1,19 @@
+# Description: chrpath allows you to modify the dynamic library load path (rpath) of compiled programs.
+# URL: https://github.com/jwilk-mirrors/chrpath
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: 
+
+name=chrpath
+version=RELEASE_0_16
+release=1
+source=(https://github.com/jwilk-mirrors/$name/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./bootstrap
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}

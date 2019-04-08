@@ -1,0 +1,24 @@
+# Description: A background browser and setter for X windows.
+# URL: http://projects.l3ib.org/nitrogen/
+# Maintainer: ax, ax at slackware dot eu
+# Packager: ax, ax at slackware dot eu
+# Depends on: gtkmm librsvg
+
+name=nitrogen
+version=git
+release=1
+source=()
+
+build() {
+	git clone https://github.com/l3ib/$name.git
+	cd $name
+
+      	autoreconf -fi
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/man
+
+	make
+	make DESTDIR=$PKG install
+}
+

@@ -1,0 +1,18 @@
+# Description: morc_menu is a bash script that simulates the functionality of an Openbox / Fluxbox style menu without requiring those window managers or associated dependencies.
+# URL: https://github.com/Boruch-Baum/morc_menu
+# Maintainer: ax at slackware dot eu
+# Depends on: dmenu
+
+name=morc_menu
+version=1
+release=1
+source=()
+
+build() {
+
+		git clone https://github.com/Boruch-Baum/$name.git
+		cd $name
+	
+	make DESTDIR=$PKG install	
+
+}

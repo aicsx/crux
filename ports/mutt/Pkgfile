@@ -1,0 +1,32 @@
+# Description: Text-based email client that sucks less
+# URL:         http://www.mutt.org
+# Maintainer:  ax, ax at slackware dot eu
+# Depends on:  gdbm openssl zlib cyrus-sasl
+
+name=mutt
+version=1.11.4
+release=1
+source=(https://bitbucket.org/mutt/mutt/downloads/$name-$version.tar.gz)
+
+build () {
+    cd $name-$version
+
+    ./configure --prefix=/usr \
+                --with-docdir=/usr/share/mutt \
+                --with-mailpath=/var/spool/mail \
+                --enable-pop \
+                --enable-imap \
+                --with-ssl \
+                --enable-hcache \
+                --enable-sidebar \
+                --enable-gpgme \
+                --enable-smtp --with-sasl
+
+    make
+    make DESTDIR=$PKG install
+
+    find $PKG/usr/share/mutt/* ! -name manual.txt -delete
+    rm $PKG/usr/etc/{Muttrc,mime.types}.dist 
+    rm -r $PKG/usr/share/info
+    rm $PKG/usr/share/man/man5/{mmdf.5,mbox.5}
+}

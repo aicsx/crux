@@ -1,0 +1,21 @@
+# Description: Libiscsi is a client-side library to implement the iSCSI protocol that can be used to access the resources of an iSCSI target.
+# URL:         https://github.com/sahlberg/libiscsi
+# Maintainer:  ax, ax at slackware dot eu 
+
+name=libiscsi
+version=1.18.0
+release=1
+source=(https://github.com/sahlberg/libiscsi/archive/$version.tar.gz)
+
+build() {
+
+  cd $name-$version
+
+  NOCONFIGURE=1 ./autogen.sh
+  ./configure --prefix=/usr
+
+  make
+  make DESTDIR=$PKG install
+
+}
+

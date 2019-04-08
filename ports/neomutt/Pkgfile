@@ -1,0 +1,32 @@
+# Description: Powerful text-based mail client with all the best feature patches.
+# URL:         https://www.neomutt.org/
+# Maintainer:  ax, ax at slackware dot eu
+# Depends on:  cyrus-sasl gpgme gnupg krb5
+# Optional:    libidn docbook-xsl
+
+name=neomutt
+version=20180716
+release=1
+source=(https://github.com/$name/$name/archive/$name-$version.tar.gz)
+
+build () {
+	cd $name-$name-$version
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib \
+		--disable-doc \
+		--with-mailpath=/var/spool/mail \
+		--gpgme \
+      		--gss \
+      		--ssl \
+      		--sasl \
+      		--with-ui=ncurses \
+      		--with-idn=/usr \
+      		--gdbm \
+		--disable-doc
+
+	make
+	make DESTDIR=$PKG install
+}

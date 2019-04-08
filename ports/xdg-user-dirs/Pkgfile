@@ -1,0 +1,21 @@
+# Description: xdg-user-dirs is a tool to help manage "well known" user directories like the desktop folder and the music folder. It also handles localization (i.e. translation) of the filenames.
+# URL: https://www.freedesktop.org/wiki/Software/xdg-user-dirs/
+# Maintainer: ax at slackware dot eu
+# Depends on: docbook-xsl
+
+name=xdg-user-dirs
+version=0.17
+release=1
+source=(http://user-dirs.freedesktop.org/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+    	./configure --prefix=/usr 
+
+	make
+    	make DESTDIR=$PKG \
+        PREFIX=/usr \
+        MANDIR=/usr/man\
+        install 
+}

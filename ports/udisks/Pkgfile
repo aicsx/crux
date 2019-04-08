@@ -1,0 +1,25 @@
+# Description: D-Bus interfaces and tools for querying and manipulating storage devices
+# URL: http://www.freedesktop.org/wiki/Software/udisks/
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: libatasmart libgudev libiscsi libstoragemgmt polkit libblockdev docbook-xsl
+
+name=udisks
+version=2.8.2
+release=1
+source=(https://github.com/storaged-project/udisks/releases/download/$name-$version/$name-$version.tar.bz2)
+
+build() {
+  cd udisks-$version
+  ./configure --prefix=/usr \
+  	--enable-bcache \
+ 	--enable-btrfs \
+	--enable-lsm \
+	--enable-lvm2 \
+	--enable-lvmcache \
+	--enable-zram 
+  
+  make
+  make DESTDIR=$PKG install
+
+}
+

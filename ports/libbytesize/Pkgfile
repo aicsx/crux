@@ -1,0 +1,20 @@
+# Description: A tiny library providing a C "class" for working with arbitrary big sizes in bytes
+# URL: https://github.com/storaged-project/libbytesize
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: python3 python
+
+name=libbytesize
+version=1.4
+release=1
+source=(https://github.com/storaged-project/$name/releases/download/$version/$name-$version.tar.gz)
+
+build() {
+  	cd $name-$version
+  	
+	./configure --prefix=/usr
+  	
+	make
+ 	make DESTDIR=$PKG install
+
+}
+

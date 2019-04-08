@@ -1,0 +1,18 @@
+# Description: A library for manipulating block devices
+# URL: https://github.com/storaged-project/libblockdev
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: gparted nss cryptsetup libbytesize libyaml ndctl volume_key gobject-introspection
+
+name=libblockdev
+version=2.21
+release=1
+source=(https://github.com/storaged-project/libblockdev/releases/download/$version-$release/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+  	./configure --prefix=/usr \
+	--with-dmraid=no 
+  
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,22 @@
+# Description: polkit is an application-level toolkit for defining and handling the policy that allows unprivileged processes to speak to privileged processes.
+# URL: https://www.freedesktop.org/wiki/Software/polkit/
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: mozjs docbook-xsl gobject-introspection zlib icu nspr intltool
+
+name=polkit
+version=0.115
+release=1
+source=(http://www.freedesktop.org/software/$name/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	--enable-libsystemd-login=no \
+	--enable-libelogind=no \
+	--with-authfw=shadow 	
+
+	make
+	make DESTDIR=$PKG install
+
+}

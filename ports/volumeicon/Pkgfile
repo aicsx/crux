@@ -1,0 +1,18 @@
+# Description: Lightweight volume control
+# URL: http://nullwise.com/volumeicon.html
+# Maintainer: ax at slackware dot eu
+# Depends on: libnotify gtk3
+
+name=volumeicon
+version=0.5.1
+release=1
+source=(http://nullwise.com/files/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--disable-nls \
+	--enable-notify 
+	make
+	make DESTDIR=$PKG install
+}

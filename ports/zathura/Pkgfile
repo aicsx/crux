@@ -1,0 +1,18 @@
+# Description:  A highly customizable and functional document viewer.
+# URL:          https://pwmt.org/projects/zathura/
+# Maintainer:   ax, ax at slackware dot eu
+# Depends on:   girara gtk3
+# Optional:     check texlive intltool libseccomp doxygen docutils sqlite3
+
+name=zathura
+version=0.4.3
+release=1
+source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	meson build --prefix=/usr
+	DESTDIR=$PKG ninja -C build install
+
+}

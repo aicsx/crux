@@ -1,0 +1,18 @@
+# Description: A library for storage management.
+# URL: https://github.com/libstorage/libstoragemgmt
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: check chrpath pywbem
+
+name=libstoragemgmt
+version=1.7.3
+release=1
+source=(https://github.com/libstorage/libstoragemgmt/releases/download/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+	
+	make
+	make DESTDIR=$PKG install	
+}

@@ -1,0 +1,25 @@
+# Description: a lean, small and clean implementation of an ATA S.M.A.R.T. reading and parsing library
+# URL: http://0pointer.de/blog/projects/being-smart.html
+# Maintainer: ax, ax at slackware dot eu
+
+name=libatasmart
+version=git
+release=1
+source=()
+
+build() {
+	
+	git clone git://git.0pointer.de/libatasmart.git
+  	cd $name
+  	
+	NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--libdir=/usr/lib \
+	--libexecdir=/usr/lib	
+  
+	make
+  	make DESTDIR=$PKG install
+}
+
