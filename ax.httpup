@@ -1,0 +1,8 @@
+#
+# /etc/ports/ax.httpup: ax's port collection
+#
+
+ROOT_DIR=/usr/ports/ax
+URL=https://raw.githubusercontent.com/aicsx/crux/master/ports/
+
+# End of file
