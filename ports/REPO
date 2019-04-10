@@ -80,9 +80,10 @@ f:8f89f78289486e370e75aaad06110d95:libstoragemgmt/.footprint
 f:e39f8257a3be3f8bee309f8e59841504:chrpath/Pkgfile
 f:070d56873a438ab486c0ba4200646e58:chrpath/.md5sum
 f:1051f749790ede48fd44c91b8de7d536:chrpath/.footprint
-f:c759ce41219ef083d46ff5e5b54836f7:polkit/Pkgfile
+f:a8f55fcb03c460bd18151bcc8e3cef8a:polkit/Pkgfile
+f:e2ebd30f46e8ffd38c4e54f5dd204307:polkit/pre-install
 f:533c275430a37ee5adff3c93a4324e31:polkit/.md5sum
-f:e4b726e3afb1a85dcfc458163159e21b:polkit/.footprint
+f:507a8c8287c7f93e14087407868fa100:polkit/.footprint
 f:cd212f3df48b0b47861c96df0e713605:mozjs/Pkgfile
 f:59e93027538930a8ae8d3bef741f2e58:mozjs/.md5sum
 f:fef2676d0f769c3c2eeda857649efd1d:mozjs/.footprint

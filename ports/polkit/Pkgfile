@@ -12,11 +12,17 @@ build() {
 	cd $name-$version
 
 	./configure --prefix=/usr \
-	--enable-libsystemd-login=no \
-	--enable-libelogind=no \
-	--with-authfw=shadow 	
+	--localstatedir=/var \
+	--disable-nls \
+	--disable-libsystemd-login \
+	--disable-libelogind \
+	--with-authfw=shadow \
+	--disable-man-pages	
 
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/man
+	rm -rf $PKG/usr/share/locale
 
 }
