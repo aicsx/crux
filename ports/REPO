@@ -24,6 +24,7 @@ d:girara
 d:zathura
 d:neomutt
 d:mutt
+d:viewnior
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:4509d0b18cbd727aa2151d86037b7e36:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -103,3 +104,6 @@ f:76aff530035a0d0821c1fc2fe4342a50:neomutt/.footprint
 f:419e3bfa8319cbd39da9199bad9cca0f:mutt/Pkgfile
 f:205b9ab5e6cc4d906031f19134838a80:mutt/.md5sum
 f:7f9b9042e457f13eea2e5d942510b045:mutt/.footprint
+f:d544f02fa45ad8b6f4f0818730f399db:viewnior/Pkgfile
+f:fbb5f47ce6e097bd6569eaf4337cac11:viewnior/.md5sum
+f:4b31bb846f29512dada6f5f4f379d742:viewnior/.footprint
