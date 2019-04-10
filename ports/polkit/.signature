@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu5LXah/dPD8g1WfAGXDv9c2+OPyxeyXJdeAExHwVYQcFPXhaIM0QgkOIsIy8ZhhLC21jRTxDc1Y9gKt3Ceycmgc=
+SHA256 (Pkgfile) = 8ea801017676e3e0cd1529e771b175b5817322bc50c00115e538bb74af23e2ea
+SHA256 (.footprint) = bd0b53b504f8b70d80592599f715a886212a456e9a49bcd24d413de4d14c6e2c
+SHA256 (polkit-0.115.tar.gz) = 2f87ecdabfbd415c6306673ceadc59846f059b18ef2fce42bac63fe283f12131

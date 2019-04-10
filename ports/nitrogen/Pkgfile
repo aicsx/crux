@@ -1,5 +1,5 @@
 # Description: A background browser and setter for X windows.
-# URL: http://projects.l3ib.org/nitrogen/
+# URL: https://github.com/l3ib/nitrogen
 # Maintainer: ax, ax at slackware dot eu
 # Packager: ax, ax at slackware dot eu
 # Depends on: gtkmm librsvg
@@ -15,10 +15,10 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--mandir=/usr/man \
-		--localedir=/usr/share/locale
+		--mandir=/usr/man 
 
 	make
 	make DESTDIR=$PKG install
+
 }
 

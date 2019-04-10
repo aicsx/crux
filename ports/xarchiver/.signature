@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu60DjEfu29yLhx0X4KWWc2OKaFnYY8CHZqoSulcn4RaOsh1jEamx29mBwJ7uzfQyt8r/Qi6GyMPzPm/Fl437SQ4=
+SHA256 (Pkgfile) = ea8311cef5165a8be104136a3acd68a3a1e99073330dda84b41677d666f59482
+SHA256 (.footprint) = 29e22a69546043fb6617c77a8531a3fd9581ae3d30401618e7ed51d96a8af0c6
+SHA256 (xarchiver-0.5.4.tar.bz2) = e63fa73979fcc56efe8cca9095fd915d31a1714ce9676246b8626f164e452ef4

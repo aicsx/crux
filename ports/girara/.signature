@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu3zyQ1Qkt4yv91B5+lyi5FoCAbcDvHhBYsztAhX9ydb7R0zP5Bp9kceSsGJLsJPiJkg/16erYaqFjLtFdb0E0wc=
+SHA256 (Pkgfile) = d24f50dd2eaa3c19251eb210f6269b1a30134f5c6facb4f5eddece9480afc1f7
+SHA256 (.footprint) = 49749363f34fc608d80cf78c9818154963354150fab67e5e76c0141c0a6f5682
+SHA256 (girara-0.3.2.tar.xz) = 1700353a101f3c520f9b22e79d71ea5b268a9ec324796cf9e64775d96bb086cd

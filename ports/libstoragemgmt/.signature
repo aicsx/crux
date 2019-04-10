@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu4ZEKiSUjl0Vy1jG39iVyhvqyOFvaJQESnCcYZE7jSCiNkTfhcZBz/os/u2au9ncoYsqWs/SGzJGrUM4at2QDQU=
+SHA256 (Pkgfile) = 8efc331a55e087b20428dd7dab3c8c35a8d30d124a4f302070173af9e93d0dfe
+SHA256 (.footprint) = e939becf9b62034b30f9a91564d15cdf12c6ac7be3c52c50b7bea4078ec5313d
+SHA256 (libstoragemgmt-1.7.3.tar.gz) = 18e36665b645c1c41ad39fe8034e8f691104d72325881fb141e4bef97538ce80

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizuyKKQ+Q1ku99nlzjZIaF/jBGqkz4ICZSoB3pYPUZMmPqe+KdYaXaJ8qFaD1QplPbo1ffCBTyEAtgsA1IcvWs3wM=
+SHA256 (Pkgfile) = cd67646828969956d7f9b1199e9ae972c5269729b0f59eef52e4377200da2f61
+SHA256 (.footprint) = e36201d17e31d62aa6a3a9d0594681913b2a98f7e2e43469e0673d3cda53980c
+SHA256 (udisks-2.8.2.tar.bz2) = 3d233bc8ddac1b84338280e912ca31b613aadd1efca68a9717f818bb3b038bb6

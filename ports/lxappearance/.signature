@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu5qLgjQplyNVRbDApektmMWwXR0vkgClyu4EyTCp1Bg+Lp13/5jqF3bO6GQvVY1xXdNzFkLvstjBjA8u9mT39AU=
+SHA256 (Pkgfile) = a2bb121d0eae0020947189cf6d6c02530b09be2bb23fdfd5e38b299433616161
+SHA256 (.footprint) = 380d149c7674c31b8057a443be752e345204c9437d32f74913a84a8b390c573e
+SHA256 (lxappearance-0.6.3.tar.xz) = 7222d858b8fef4b7967c42142d61e82ded6dd42dc5ef1d59caad775795928b38

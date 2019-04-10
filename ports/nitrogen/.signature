@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu8Lfuyx+iZGSHwZkFFyJNflVx9BlRqBJJ2tpXKH9sECfS8GuHxG5cLyoUOn0kNJtOL26OPRWQvIsRU4hUoFz4QU=
+SHA256 (Pkgfile) = a7369e52e5236bfa15b633f3ff05e161ccc2990a824b178268ebc88d69ff3917
+SHA256 (.footprint) = d3ab02d6e235f27670a063b80a76de9648235081bbda9c41d73b94467bc1eccf
+SHA256 (nitrogen-1.6.1.tar.gz) = f40213707b7a3be87e556f65521cef8795bd91afda13dfac8f00c3550375837d

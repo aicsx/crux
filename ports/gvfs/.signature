@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu//6zWnk7jBRI5fWJjL6vnb6UVCzOjDiyxtS/AaKPCBdjmm0znCZKniV2C8xHuM8ufzC1gezMtC1ehpnaIKQtAg=
+SHA256 (Pkgfile) = 9121d2e4db50d7a271ce11aff2fbfe4b7b57bd699fa08f5ab2ed8f2e72c934cb
+SHA256 (.footprint) = f711e736cc4029671cd4305c1fa83d6389426ef2fd60f7b860db793b0d5a93e7
+SHA256 (gvfs-1.40.0.tar.xz) = 3739d64b79c95a9f0f9faf2c5f9e5298b4b2ebdd6431435ce656ecd19b31e2f2

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizuxXwpREoqFX3cWM+wA5QYIjHeHX+zSecpXeMRT5xVEUzjLx0ceBUrbpzQWcGpPl98wc9XqW8PAp7+TQwbe9nxQs=
+SHA256 (Pkgfile) = 469a772635634c95a4bd4466f702b1c99b125de15eff14b6342630de26336e59
+SHA256 (.footprint) = a3751a376e25dd58969e0323c2871a0da5ae9ad8de41701da6d9c64c3ffbaac7
+SHA256 (1.18.0.tar.gz) = 464d104e12533dc11f0dd7662cbc2f01c132f94aa4f5bd519e3413ef485830e8

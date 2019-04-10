@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu5NNscim+VvkXxMbXnALPh7eb1mwSe5egX+IK0+gS40eepkKRHMsyq9Nek8sB2Opd2SjWI9izp4DNklILap0EQk=
+SHA256 (Pkgfile) = c9bbea28f155d0120cfaf1fdcf6c46d0b3831906ddafc1875c990e19b6b4e06f
+SHA256 (.footprint) = d619d7c80e4a2f6ee557930ff49ef5e1d7380b7ebd27aabedfb4f1be638b30cc
+SHA256 (lxmenu-data-0.1.5.tar.xz) = 9fe3218d2ef50b91190162f4f923d6524c364849f87bcda8b4ed8eb59b80bab8
