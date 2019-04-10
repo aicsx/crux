@@ -29,4 +29,9 @@ build () {
 
 	make
 	make DESTDIR=$PKG install
+
+	rm $PKG/usr/share/doc/neomutt/hcache-bench/README.md
+	rm $PKG/usr/share/doc/neomutt/keybase/README.md
+	rm $PKG/usr/share/doc/neomutt/vim-keys/README.md
+
 }

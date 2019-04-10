@@ -11,6 +11,7 @@ source=(https://github.com/storaged-project/udisks/releases/download/$name-$vers
 build() {
   cd udisks-$version
   ./configure --prefix=/usr \
+	--libexecdir=/usr/lib \
   	--enable-bcache \
  	--enable-btrfs \
 	--enable-lsm \
@@ -20,6 +21,8 @@ build() {
   
   make
   make DESTDIR=$PKG install
+
+	#rm -rf $PKG/usr/share/locale
 
 }
 

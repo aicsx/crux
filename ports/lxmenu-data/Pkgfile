@@ -1,6 +1,6 @@
 # Description: Freedesktop.org desktop menus for LXDE
 # URL: http://lxde.org/
-# Maintainer: ax at slackware dot eu
+# Maintainer: ax, ax at slackware dot eu
 # Depends on: intltool
 
 name=lxmenu-data

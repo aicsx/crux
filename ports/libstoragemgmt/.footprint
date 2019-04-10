@@ -51,6 +51,10 @@ drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libstoragemgmt.so -> libstoragemgmt.so.1.7.3
 lrwxrwxrwx	root/root	usr/lib/libstoragemgmt.so.1 -> libstoragemgmt.so.1.7.3
 -rwxr-xr-x	root/root	usr/lib/libstoragemgmt.so.1.7.3
+drwxr-xr-x	root/root	usr/lib/libstoragemgmt/
+drwxr-xr-x	root/root	usr/lib/libstoragemgmt/lsm.d/
+-rwxr-xr-x	root/root	usr/lib/libstoragemgmt/lsm.d/find_unused_lun.py
+-rwxr-xr-x	root/root	usr/lib/libstoragemgmt/lsm.d/local_sanity_check.py
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libstoragemgmt.pc
 drwxr-xr-x	root/root	usr/lib/python2.7/
@@ -222,10 +226,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/lsm/plugin/targetd/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/lsm/version.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/lsm/version.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/lsm/version.pyo
-drwxr-xr-x	root/root	usr/libexec/
-drwxr-xr-x	root/root	usr/libexec/lsm.d/
--rwxr-xr-x	root/root	usr/libexec/lsm.d/find_unused_lun.py
--rwxr-xr-x	root/root	usr/libexec/lsm.d/local_sanity_check.py
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/bash-completion/
 drwxr-xr-x	root/root	usr/share/bash-completion/completions/

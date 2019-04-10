@@ -16,12 +16,10 @@ drwxr-xr-x	root/root	usr/share/doc/neomutt/colorschemes/
 -rw-r--r--	root/root	usr/share/doc/neomutt/colorschemes/vombatidae.neomuttrc
 -rw-r--r--	root/root	usr/share/doc/neomutt/colorschemes/zenburn.neomuttrc
 drwxr-xr-x	root/root	usr/share/doc/neomutt/hcache-bench/
--rw-r--r--	root/root	usr/share/doc/neomutt/hcache-bench/README.md
 -rw-r--r--	root/root	usr/share/doc/neomutt/hcache-bench/neomutt-hcache-bench.sh
 -rw-r--r--	root/root	usr/share/doc/neomutt/hcache-bench/neomuttrc
 drwxr-xr-x	root/root	usr/share/doc/neomutt/keybase/
 -rw-r--r--	root/root	usr/share/doc/neomutt/keybase/LICENSE
--rw-r--r--	root/root	usr/share/doc/neomutt/keybase/README.md
 -rw-r--r--	root/root	usr/share/doc/neomutt/keybase/attachmentView.png
 -rwxr-xr-x	root/root	usr/share/doc/neomutt/keybase/decrypt.sh
 -rwxr-xr-x	root/root	usr/share/doc/neomutt/keybase/install.sh
@@ -53,7 +51,6 @@ drwxr-xr-x	root/root	usr/share/doc/neomutt/samples/
 -rw-r--r--	root/root	usr/share/doc/neomutt/samples/smime.rc
 -rw-r--r--	root/root	usr/share/doc/neomutt/samples/smime_keys_test.pl
 drwxr-xr-x	root/root	usr/share/doc/neomutt/vim-keys/
--rw-r--r--	root/root	usr/share/doc/neomutt/vim-keys/README.md
 -rw-r--r--	root/root	usr/share/doc/neomutt/vim-keys/vim-keys.rc
 drwxr-xr-x	root/root	usr/share/locale/
 drwxr-xr-x	root/root	usr/share/locale/bg/

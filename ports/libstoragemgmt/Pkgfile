@@ -11,8 +11,9 @@ source=(https://github.com/libstorage/libstoragemgmt/releases/download/$version/
 build() {
 	cd $name-$version
 
-	./configure --prefix=/usr
-	
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib/$name
+		
 	make
 	make DESTDIR=$PKG install	
 }

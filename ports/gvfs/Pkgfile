@@ -32,6 +32,8 @@ build() {
 		-Dsmb=false
 
 	DESTDIR=$PKG ninja -C build install
+
+	#rm -rf $PKG/usr/share/locale
 }
 
 

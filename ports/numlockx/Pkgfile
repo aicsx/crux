@@ -1,7 +1,6 @@
 # Description: This little thingy allows you to start X with NumLock turned on
 # URL: https://github.com/rg3/numlockx
-# Packager: ax at slackware dot eu
-# Maintainer: ax at slackware dot eu
+# Maintainer: ax, ax at slackware dot eu
 # Depends on: libxtst
 
 name=numlockx

@@ -5,18 +5,18 @@
 # Depends on: gtkmm librsvg
 
 name=nitrogen
-version=git
+version=1.6.1
 release=1
-source=()
+source=(https://github.com/l3ib/$name/releases/download/$version/$name-$version.tar.gz)
 
 build() {
-	git clone https://github.com/l3ib/$name.git
-	cd $name
 
-      	autoreconf -fi
+	cd $name-$version
+
 	./configure \
 		--prefix=/usr \
-		--mandir=/usr/man
+		--mandir=/usr/man \
+		--localedir=/usr/share/locale
 
 	make
 	make DESTDIR=$PKG install
