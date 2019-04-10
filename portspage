@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-our $version = "1.0.4";
+our $version = "1.0.4-ax";
 
 ########################################################################
 #
@@ -9,9 +9,10 @@ our $version = "1.0.4";
 # This is a script for generating CRUX port listings.
 # Distributed under the terms of the GPL license.
 # Report bugs and suggestions to <jukka@karsikkopuu.net>.
-# This release is modified by ax, ax at slackware dot eu
 #
 # Changelog:
+# 1.0.4-ax 
+#   - Added P F M in index.html  
 # 1.0.4
 #   - Added --date-from-pkgfile (patch from Mikhail Kolesnik)
 # 1.0.3
