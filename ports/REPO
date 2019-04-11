@@ -29,6 +29,7 @@ d:clipit
 d:libndp
 d:dmenu
 d:weechat
+d:leafpad
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:9d85abd787c3b3178959d61afd059904:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -160,3 +161,7 @@ f:a6c8f7ec796a9ba77acc5be091d956b7:weechat/Pkgfile
 f:afece268fdb2b09b5998d139e52f9a15:weechat/.md5sum
 f:2abc1d555b75706953ec4199c40596a0:weechat/.footprint
 f:b76cfacd433c140ae78a5bc8afa1afaa:weechat/.signature
+f:aeddc176d7a6732d5cd21dc9ae6e7441:leafpad/Pkgfile
+f:d3bd16e159a3db8633d6d56131826b2f:leafpad/.md5sum
+f:8e72234b31c1c9b7dfe4c4b95bc87554:leafpad/.footprint
+f:b8a134d2ff98e5b7b80d302e995619ba:leafpad/.signature
