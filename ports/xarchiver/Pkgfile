@@ -15,7 +15,7 @@ build() {
 	            --libexecdir=/usr/lib/$name \
 	            --mandir=/usr/share/man \
 	            --docdir=/usr/share/doc \
-	            --sysconfdir=/etc \
+	            --sysconfdir=/etc 
 
 	make
 	make DESTDIR=$PKG install
