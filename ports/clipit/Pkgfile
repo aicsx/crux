@@ -1,0 +1,22 @@
+# Description: ClipIt is a lightweight GTK+ clipboard manager.
+# URL: https://github.com/CristianHenzel/ClipIt
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: gtk
+# Optional: xdotool
+
+name=clipit
+version=1.4.4
+release=1
+source=(https://github.com/CristianHenzel/ClipIt/archive/v$version.tar.gz)
+
+build() {
+	cd ClipIt-$version
+
+	NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+	
+}
+

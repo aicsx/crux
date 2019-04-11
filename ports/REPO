@@ -25,6 +25,7 @@ d:neomutt
 d:mutt
 d:viewnior
 d:nitrogen
+d:clipit
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:9d85abd787c3b3178959d61afd059904:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -135,3 +136,7 @@ f:d0a1b0481d3d56143a7bd977e4b935bf:nitrogen/Pkgfile
 f:2d1060c4f627d782f72ccfbd2fcebf6a:nitrogen/.md5sum
 f:4e31e09cfa8f55a5c60dc8acd27f9a66:nitrogen/.footprint
 f:3841056eb60ed2c2f2cf8ae1ef09efac:nitrogen/.signature
+f:03fc7757cc4074ffae4a4ef26ae70c22:clipit/Pkgfile
+f:bebdd14d0590374ecc411bf246b21e0c:clipit/.md5sum
+f:fea61f80e46864f9a84ef4fceb590572:clipit/.footprint
+f:e5e9b5fd3d4871416d46c20cf317aad5:clipit/.signature
