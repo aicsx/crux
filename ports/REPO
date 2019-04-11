@@ -26,6 +26,8 @@ d:mutt
 d:viewnior
 d:nitrogen
 d:clipit
+d:libndp
+d:dmenu
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:9d85abd787c3b3178959d61afd059904:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -140,3 +142,16 @@ f:03fc7757cc4074ffae4a4ef26ae70c22:clipit/Pkgfile
 f:bebdd14d0590374ecc411bf246b21e0c:clipit/.md5sum
 f:fea61f80e46864f9a84ef4fceb590572:clipit/.footprint
 f:e5e9b5fd3d4871416d46c20cf317aad5:clipit/.signature
+f:f993a4d4170cd80504aa864921fc4de7:libndp/Pkgfile
+f:36ebbe20482d0b733d5229cb3ba9fbcb:libndp/.md5sum
+f:b35f99c2756cd2708d6eba12e608fc53:libndp/.footprint
+f:00200fb42314068cea5e3db7c029ebff:libndp/.signature
+f:8e1572eba3ae178e4984d41b0ef15fc0:dmenu/Pkgfile
+f:5716f27782bf367f88c80f0324d7868b:dmenu/dmenu_recenty
+f:4f766135e00cbd13381119fa12db16a5:dmenu/dmenurc
+f:760b93fd0c330228fa76731ec972ac0f:dmenu/001-dmenu-mousesupport-manjaro.diff
+f:c7dd9d0818ce3bbfd9565f3019cc7865:dmenu/002-dmenu-line-height-manjaro.diff
+f:09bd7348b0641394cf679b8d0a9aaaeb:dmenu/003-dmenu-xyw-manjaro.diff
+f:1e472f3146627a7b37f4a52c15fc86d0:dmenu/.md5sum
+f:cc72937d6e01c38a4bc6864f99278732:dmenu/.footprint
+f:f68640a498d63a236ba385b18107915c:dmenu/.signature

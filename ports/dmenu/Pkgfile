@@ -1,0 +1,24 @@
+# Description:  dynamic menu, originally designed for dwm with (manjaro patch for i3).
+# URL:         http://tools.suckless.org/dmenu/
+# Maintainer:  ax, ax at slackware dot eu
+# Depends on:  xorg-libxinerama xorg-libxft
+
+name=dmenu
+version=4.9
+release=1
+source=(
+http://dl.suckless.org/tools/$name-$version.tar.gz 001-dmenu-mousesupport-manjaro.diff 002-dmenu-line-height-manjaro.diff 003-dmenu-xyw-manjaro.diff dmenurc dmenu_recenty)
+
+build () {
+	cd "$name-$version"
+	
+	patch -p1 < $SRC/001-dmenu-mousesupport-manjaro.diff
+	patch -p1 < $SRC/002-dmenu-line-height-manjaro.diff
+	patch -p1 < $SRC/003-dmenu-xyw-manjaro.diff
+
+	make DESTDIR=$PKG PREFIX=/usr MANPREFIX=/usr/share/man install
+
+	install -Dm 755 $SRC/dmenu_recenty $PKG/usr/bin/dmenu_recency
+	install -Dm 755 $SRC/dmenurc $PKG/usr/share/$name/dmenurc
+
+}

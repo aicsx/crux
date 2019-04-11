@@ -1,0 +1,10 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizuwGZTaOuvRd/c2ejpj5yXBs+dSVRScxAhx2kBrUcnFJ500gxWAuWvDzcSFFhxf2yvthMdu73cbYbxbN/a0n71wI=
+SHA256 (Pkgfile) = 1e4f232672a3627a61066bcdb6a719fa89a5bddac582e186f34bf4c82d4ff12a
+SHA256 (.footprint) = bb8c776d1fabae924d04e2738fa796ef7c9141094e663536667cb53a93c3e643
+SHA256 (dmenu-4.9.tar.gz) = b3971f4f354476a37b2afb498693649009b201550b0c7c88e866af8132b64945
+SHA256 (001-dmenu-mousesupport-manjaro.diff) = 2f4038ab07432dec57556d847c3e0104528234fe07f0ada21972d8f610408d95
+SHA256 (002-dmenu-line-height-manjaro.diff) = 2eb6f4f206017e26b21b909be8070e49f44613a8178c5c21314cc15fcf03be31
+SHA256 (003-dmenu-xyw-manjaro.diff) = 63cb0925f0984c62fa4e0943f5d1463c740a14e58a7596cc326e8c51b4b6592b
+SHA256 (dmenurc) = 5cec63d872aa30dd9b0d8741737e27c4fecd46cc9bdcc8ebe9ee842aa4baa0fe
+SHA256 (dmenu_recenty) = 1dc5b86328f8a8e2a3d357f7543ee989eefb8f8b30593d8b3cd3f57641610ff4

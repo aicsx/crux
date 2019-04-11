@@ -1,0 +1,19 @@
+# Description:	Library for Neighbor Discovery Protocol
+# URL:		http://libndp.org/
+# Maintainer:	ax, ax at slackware dot eu
+# Depends on:
+
+name=libndp
+version=1.7
+release=1
+source=(https://github.com/jpirko/$name/archive/v$version.tar.gz)
+
+build() { 
+	cd $name-$version
+	
+	NOCONFIGURE=1 ./autogen.sh
+	./configure \
+		--prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
