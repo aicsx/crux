@@ -1,0 +1,126 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/weechat
+lrwxrwxrwx	root/root	usr/bin/weechat-curses -> weechat
+-rwxr-xr-x	root/root	usr/bin/weechat-headless
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/weechat/
+-rw-r--r--	root/root	usr/include/weechat/weechat-plugin.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/weechat.pc
+drwxr-xr-x	root/root	usr/lib/weechat/
+drwxr-xr-x	root/root	usr/lib/weechat/plugins/
+-rw-r--r--	root/root	usr/lib/weechat/plugins/alias.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/alias.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/alias.so -> alias.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/alias.so.0 -> alias.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/alias.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/buflist.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/buflist.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/buflist.so -> buflist.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/buflist.so.0 -> buflist.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/buflist.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/charset.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/charset.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/charset.so -> charset.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/charset.so.0 -> charset.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/charset.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/exec.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/exec.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/exec.so -> exec.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/exec.so.0 -> exec.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/exec.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/fifo.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/fifo.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/fifo.so -> fifo.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/fifo.so.0 -> fifo.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/fifo.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/fset.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/fset.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/fset.so -> fset.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/fset.so.0 -> fset.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/fset.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/irc.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/irc.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/irc.so -> irc.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/irc.so.0 -> irc.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/irc.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/logger.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/logger.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/logger.so -> logger.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/logger.so.0 -> logger.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/logger.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/perl.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/perl.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/perl.so -> perl.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/perl.so.0 -> perl.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/perl.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/python.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/python.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/python.so -> python.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/python.so.0 -> python.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/python.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/relay.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/relay.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/relay.so -> relay.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/relay.so.0 -> relay.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/relay.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/script.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/script.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/script.so -> script.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/script.so.0 -> script.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/script.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/trigger.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/trigger.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/trigger.so -> trigger.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/trigger.so.0 -> trigger.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/trigger.so.0.0.0
+-rw-r--r--	root/root	usr/lib/weechat/plugins/xfer.a
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/xfer.la
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/xfer.so -> xfer.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/weechat/plugins/xfer.so.0 -> xfer.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/weechat/plugins/xfer.so.0.0.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/weechat.png
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/cs/
+drwxr-xr-x	root/root	usr/share/locale/cs/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/cs/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/de/
+drwxr-xr-x	root/root	usr/share/locale/de/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/es/
+drwxr-xr-x	root/root	usr/share/locale/es/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/es/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/hu/
+drwxr-xr-x	root/root	usr/share/locale/hu/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/it/
+drwxr-xr-x	root/root	usr/share/locale/it/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/it/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/ja/
+drwxr-xr-x	root/root	usr/share/locale/ja/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/pl/
+drwxr-xr-x	root/root	usr/share/locale/pl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pl/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/pt/
+drwxr-xr-x	root/root	usr/share/locale/pt/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pt/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/pt_BR/
+drwxr-xr-x	root/root	usr/share/locale/pt_BR/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pt_BR/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/ru/
+drwxr-xr-x	root/root	usr/share/locale/ru/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ru/LC_MESSAGES/weechat.mo
+drwxr-xr-x	root/root	usr/share/locale/tr/
+drwxr-xr-x	root/root	usr/share/locale/tr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/tr/LC_MESSAGES/weechat.mo

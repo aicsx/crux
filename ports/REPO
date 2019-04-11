@@ -28,6 +28,7 @@ d:nitrogen
 d:clipit
 d:libndp
 d:dmenu
+d:weechat
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:9d85abd787c3b3178959d61afd059904:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -155,3 +156,7 @@ f:09bd7348b0641394cf679b8d0a9aaaeb:dmenu/003-dmenu-xyw-manjaro.diff
 f:1e472f3146627a7b37f4a52c15fc86d0:dmenu/.md5sum
 f:cc72937d6e01c38a4bc6864f99278732:dmenu/.footprint
 f:f68640a498d63a236ba385b18107915c:dmenu/.signature
+f:a6c8f7ec796a9ba77acc5be091d956b7:weechat/Pkgfile
+f:afece268fdb2b09b5998d139e52f9a15:weechat/.md5sum
+f:2abc1d555b75706953ec4199c40596a0:weechat/.footprint
+f:b76cfacd433c140ae78a5bc8afa1afaa:weechat/.signature

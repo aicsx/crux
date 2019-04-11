@@ -1,0 +1,21 @@
+# Description: the extensible chat client.
+# URL: https://weechat.org
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: curl ncurses zlib libgcrypt gnutls
+# Optional: perl, lua, python, ruby, asciidoc, php, tcl
+
+name=weechat
+version=2.4
+release=1
+source=(https://weechat.org/files/src/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./autogen.sh
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+
+}

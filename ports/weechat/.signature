@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizuxXdSCrf4LSaQyFPuVtXrEPjBpds1QxNkVFi0AwltDqTuJ0lc3UAf8flwHg06FZ36dnDNd67t5+YcpkBn1q2NAY=
+SHA256 (Pkgfile) = 70b97bdce0b262702595bf82763af344620656ba2cacfbf5bae3c0bdae352a92
+SHA256 (.footprint) = ecf2c1bbf382ec8cc5e02e8d733118dfef263724d69ec2db87c3e3965c0af0b8
+SHA256 (weechat-2.4.tar.xz) = 86d626c58d666ca58ef4762ff60c24c89f4632d95ed401773d5584043d865c73
