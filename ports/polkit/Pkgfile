@@ -22,6 +22,11 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	chmod -s $PKG/usr/bin/pkexec
+	chown root:root $PKG/usr/etc/polkit-1/rules.d
+	chmod -s $PKG/usr/lib/polkit-1/polkit-agent-helper-1
+	chown root:root $PKG/usr/share/polkit-1/rules.d
+
 	rm -rf $PKG/usr/man
 	rm -rf $PKG/usr/share/locale
 

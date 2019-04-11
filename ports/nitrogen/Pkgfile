@@ -15,10 +15,13 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--mandir=/usr/man 
-
+		--mandir=/usr/man
+		
+			
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/man
 
 }
 
