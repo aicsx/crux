@@ -30,6 +30,8 @@ d:libndp
 d:dmenu
 d:weechat
 d:leafpad
+d:i3-gaps
+d:i3status
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:9d85abd787c3b3178959d61afd059904:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -165,3 +167,11 @@ f:aeddc176d7a6732d5cd21dc9ae6e7441:leafpad/Pkgfile
 f:d3bd16e159a3db8633d6d56131826b2f:leafpad/.md5sum
 f:8e72234b31c1c9b7dfe4c4b95bc87554:leafpad/.footprint
 f:b8a134d2ff98e5b7b80d302e995619ba:leafpad/.signature
+f:51e4f535ad24b342b8fc413247cb1928:i3-gaps/Pkgfile
+f:fdf0cdb43d4f73bb27e03703086d13ce:i3-gaps/.md5sum
+f:9371001c062cd02c5cabc6ca321c1cb0:i3-gaps/.footprint
+f:04717cf8f0394b61a4c02e6fe697a2a2:i3-gaps/.signature
+f:8f2ae95922b4bfb7a60fec122a225a6d:i3status/Pkgfile
+f:746fb50a25767b52d69b2a5ee7ecdc21:i3status/.md5sum
+f:986e0927bd5c80f3c117310d56914328:i3status/.footprint
+f:3581b8c6c72b22ce7fbf90e7f6546dfa:i3status/.signature

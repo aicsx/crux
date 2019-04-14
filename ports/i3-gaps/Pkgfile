@@ -1,0 +1,25 @@
+# Description: i3 with more features (forked from https://github.com/i3/i3) 
+# URL: https://github.com/Airblader/i3
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: pkg-config  startup-notification libev libxkbcommon pango xorg-xcb-util xcb-util-xrm xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl cairo libpcre
+
+name=i3-gaps
+version=4.16.1
+release=1
+source=(https://github.com/Airblader/i3/archive/$version.tar.gz)
+
+build() {
+	cd i3-$version
+    
+	# compile & install
+	autoreconf --force --install
+	rm -rf build/
+	mkdir -p build && cd build/
+	# Disabling sanitizers is important for release versions!
+	# The prefix and sysconfdir are, obviously, dependent on the distribution.
+	../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+    
+    	make
+    	make DESTDIR=$PKG install
+    
+}
