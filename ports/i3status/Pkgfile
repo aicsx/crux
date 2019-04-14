@@ -1,4 +1,4 @@
-# Decription: i3status is a small program for generating a status bar for i3bar, dzen2, xmobar or similar programs. 
+# Description: is a small program for generating a status bar for i3bar, dzen2, xmobar or similar programs. 
 # URL: https://github.com/i3/i3status
 # Maintainer: ax, ax at slackware dot eu
 # Depends on: libconfuse libnl asciidoc pulseaudio yajl
