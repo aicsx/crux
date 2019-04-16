@@ -1,0 +1,55 @@
+# Description: Brother DCP-197c Printer Driver
+# URL: http://support.brother.com/g/s/id/linux/en
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: cups-filters
+
+name=brother-dcp197c
+version=1.1.3
+release=1
+source=(http://www.brother.com/pub/bsc/linux/packages/dcp197clpr-1.1.3-1.i386.rpm http://www.brother.com/pub/bsc/linux/packages/dcp197ccupswrapper-1.1.3-1.i386.rpm) 
+build() {
+
+	#  do not install in '/usr/local'
+  	if [ -d $SRC/usr/local/Brother ]; then
+    	install -d $SRC/usr/share
+    	mv $SRC/usr/local/Brother/ $SRC/usr/share/brother
+    	rm -rf $SRC/usr/local
+   	 sed -i 's|/usr/local/Brother|/usr/share/brother|g' `grep -lr '/usr/local/Brother' ./`
+  	fi
+
+  	install -d $SRC/usr/share/cups/model
+  	install -d $SRC/usr/lib/cups/filter
+
+	#  go to the cupswrapper directory and find the source file from wich to generate a ppd- and wrapper-file
+  	cd  `find . -type d -$name 'cupswrapper'`
+  	if [ -f cupswrapper* ]; then
+    	_wrapper_source=`ls cupswrapper*`
+    	sed -i '/^\/etc\/init.d\/cups/d' $_wrapper_source
+    	sed -i '/^sleep/d' $_wrapper_source
+    	sed -i '/^lpadmin/d' $_wrapper_source
+    	sed -i 's|/usr|$SRC/usr|g' $_wrapper_source
+    	sed -i 's|/opt|$SRC/opt|g' $_wrapper_source
+    	sed -i 's|/model/Brother|/model|g' $_wrapper_source
+    	sed -i 's|lpinfo|echo|g' $_wrapper_source
+ 	export srcdir=$SRC
+    	./$_wrapper_source
+    	sed -i 's|$SRC||' $SRC/usr/lib/cups/filter/*lpdwrapper*
+    	sed -i "s|$SRC||" $SRC/usr/lib/cups/filter/*lpdwrapper*
+    	rm $_wrapper_source
+  	fi
+	
+	#  /etc/printcap is managed by cups
+  	rm `find $SRC -type f -name 'setupPrintcap*'`
+
+  	cp -R $SRC/usr $PKG
+
+  	#We need to install the filter file to the cups filter path, so the PPD can find it
+  	mkdir -p $PKG/usr/lib/cups/filter
+  	cp $SRC/opt/brother/Printers/dcp197c/cupswrapper/brother_dcp197c_printer_en.ppd \
+     	$PKG/usr/lib/cups/filter 
+	cp $SRC/opt/brother/Printers/dcp197c/lpd/filterdcp197c $PKG/usr/lib/cups/filter/brlpdwrapperdcp197c
+
+  	if [ -d $SRC/opt ]; then
+    	cp -R $SRC/opt $PKG;
+  	fi
+}

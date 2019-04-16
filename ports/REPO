@@ -32,6 +32,8 @@ d:weechat
 d:leafpad
 d:i3-gaps
 d:i3status
+d:brother-dcp197c
+d:geany
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:9d85abd787c3b3178959d61afd059904:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -175,3 +177,11 @@ f:33285d4ac756832599a18b638773f3fc:i3status/Pkgfile
 f:746fb50a25767b52d69b2a5ee7ecdc21:i3status/.md5sum
 f:986e0927bd5c80f3c117310d56914328:i3status/.footprint
 f:439e1d73ef275cc59d3e2444b05c3bc1:i3status/.signature
+f:fdc3630dae5d6c3dd17089135984d861:brother-dcp197c/Pkgfile
+f:64075f4d65532d2988f4c851f6e34176:brother-dcp197c/.md5sum
+f:90d20e229a75315adb79bb2a8aeef3c6:brother-dcp197c/.footprint
+f:35c559e7c7e03e75265cd46f58868818:brother-dcp197c/.signature
+f:b2e1fced825736f7fc9be9128a347ae2:geany/Pkgfile
+f:473cb9d2f320bfeb7081c484ab793c06:geany/.md5sum
+f:b452e3bbef1127ca5772d3a3b95633fa:geany/.footprint
+f:a563744b129b999ec3b20f2e2012db0f:geany/.signature
