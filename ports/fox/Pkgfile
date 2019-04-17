@@ -1,0 +1,24 @@
+# Description:	FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively.
+# URL:		http://www.fox-toolkit.org/
+# Maintainer:   ax, ax at slackware dot eu
+# Depends on:	mesa3d libpng libtiff xorg-libxft xorg-libxcursor
+
+name=fox
+version=1.6.57
+release=1
+source=(ftp://ftp.$name-toolkit.org/pub/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--mandir=$PKG/usr/share/man \
+		--enable-release \
+		--with-xft=yes \
+		--enable-cups \
+		--with-opengl=yes
+	
+	make
+	make DESTDIR=$PKG install
+}

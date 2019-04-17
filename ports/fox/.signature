@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizu+i8YwRf0tY9TEhrSeuOHT9VzpIyE89/JL3FpYYAYXoY5ZqCAZ8eVWhb8c3UHJ/CzsxMLe2aSbk0hrz9xHTwCQc=
+SHA256 (Pkgfile) = ef167d0385b1a1e1737b21409d842ffcf6b13a54f67f11d15f312bcb67e7063f
+SHA256 (.footprint) = 673bc3c035c6c48d55722d95d14c820a38506e9954d809a8f316e3b7061faaca
+SHA256 (fox-1.6.57.tar.gz) = 65ef15de9e0f3a396dc36d9ea29c158b78fad47f7184780357b929c94d458923

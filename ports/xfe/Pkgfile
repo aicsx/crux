@@ -1,0 +1,20 @@
+# Description:	X File Explorer (Xfe) is an MS-Explorer or Commander like file manager for X.
+# URL:		http://roland65.free.fr/xfe
+# Maintainer:	ax, ax at slackware dot eu
+# Depends on:	fox
+
+name=xfe
+version=1.43.1
+release=1
+source=(http://kent.dl.sourceforge.net/sourceforge/$name/$name-$version.tar.gz)
+
+build () {
+	
+	cd $name-$version
+	
+	./configure --prefix=/usr --mandir=$PKG/usr/share/man
+
+	make
+	make DESTDIR=$PKG install
+
+}

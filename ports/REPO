@@ -34,6 +34,8 @@ d:i3-gaps
 d:i3status
 d:brother-dcp197c
 d:geany
+d:fox
+d:xfe
 f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
 f:9d85abd787c3b3178959d61afd059904:xdg-user-dirs/Pkgfile
 f:dee34c81b6ada3c85645dd089111b182:xdg-user-dirs/.footprint
@@ -185,3 +187,11 @@ f:b2e1fced825736f7fc9be9128a347ae2:geany/Pkgfile
 f:473cb9d2f320bfeb7081c484ab793c06:geany/.md5sum
 f:b452e3bbef1127ca5772d3a3b95633fa:geany/.footprint
 f:a563744b129b999ec3b20f2e2012db0f:geany/.signature
+f:64439f35efd6ebe30756f3dc797a2507:fox/Pkgfile
+f:8209191ad44c5116dcae27ef58804afa:fox/.md5sum
+f:8627ed66929903c42a4e2d8eec380bac:fox/.footprint
+f:36a24ac43c8f40529b6b797f1b50d1d4:fox/.signature
+f:380f44f3aafed0c8f77eb1c91c46d51e:xfe/Pkgfile
+f:c8f0515e016b1c6379dfc7c66bc49937:xfe/.md5sum
+f:9536b6d5e98c8bcaee3dc3dc5076ae88:xfe/.footprint
+f:5b29b01e248c56c2ae751f94b56745d2:xfe/.signature
