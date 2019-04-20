@@ -1,0 +1,9 @@
+drwxr-xr-x	root/root	opt/
+drwxr-xr-x	root/root	opt/brother/
+drwxr-xr-x	root/root	opt/brother/scanner/
+drwxr-xr-x	root/root	opt/brother/scanner/brscan-skey/
+-rwxr-xr-x	root/root	opt/brother/scanner/brscan-skey/brscan-skey
+-rwxr-xr-x	root/root	opt/brother/scanner/brscan-skey/brscan-skey-0.2.4-0
+-rwxr-xr-x	root/root	opt/brother/scanner/brscan-skey/brscan-skey-0.2.4-1.sh
+drwxr-xr-x	root/root	opt/brother/scanner/brscan-skey/script/
+-rwxr-xr-x	root/root	opt/brother/scanner/brscan-skey/script/brscan_scantoemail-0.2.4-0

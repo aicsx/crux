@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizuy91KqZrjXBZCvDHTv0Z1/39OOcK+SEervvxCOkmY2Uy1WaID1/U8l7BtsCiqtiV1ilFTOomqmMI5qmZZM1DRAw=
+SHA256 (Pkgfile) = ddf44ad0eff3b14d1aa289b3d5a67e3de4a08cef21f4a09e6a1bfd022ec9c941
+SHA256 (.footprint) = 0f5afc597e0351c7d0a99908c8576db9115d6087c32ee965dcb7557931d6daff
+SHA256 (brscan3-0.2.13-1.x86_64.rpm) = b462dbded2d0f7ae511057bd3cb6f8379042b75d996eef2675998a4559cc5556
+SHA256 (50-brscan3.rules) = 0ae6db9ebcc9f70753764aa1b616ee914ab5122281eb1e7b5997f0033c26a6ef
+SHA256 (LICENSE.html) = 3434bca1936d6a5fd6afd810cde7e1876dd4d1496722b09af180278480f464f2

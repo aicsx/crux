@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ax.pub
+RWRD0mQcBjizuwioOfpgUCNtwdNrm4PE4ZPnZ4URkNCAL/RVLpVeJVI18M94aX+S1eOWSrL51uflJWg196+KI2JuJ8RMzgjL0AE=
+SHA256 (Pkgfile) = 08e5c59891dde20abbc02599096d62cb71860455e779378d7fbd61d899b12e62
+SHA256 (.footprint) = 23104a66c3bf0b29381efa3837b908d57cb639c7760ccce19a8d90024493249f
+SHA256 (brscan-skey-0.2.4-1.x86_64.rpm) = 2e034b37e282e44a6f94315d932eb8f34693007e4abd10ca10fb4ec468c9bb3d

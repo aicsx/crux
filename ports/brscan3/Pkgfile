@@ -1,0 +1,34 @@
+# Description: Brother DCP-197C and Compatible Scan driver
+# URL: http://support.brother.com/g/s/id/linux/en
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: sane libusb-compat
+
+name=brscan3
+version=0.2.13
+release=1
+source=(
+http://download.brother.com/welcome/dlf006644/$name-$version-$release.x86_64.rpm
+50-brscan3.rules
+LICENSE.html
+) 
+build() {
+
+	cp -r $SRC/usr $PKG
+
+  	install -d -m755 $PKG/etc/udev/rules.d
+  	install -D -m644 $SRC/50-brscan3.rules $PKG/etc/udev/rules.d
+
+	install -d -m755 $PKG/usr/share/licenses/$name
+  	install -D -m644 $SRC/LICENSE.html $PKG/usr/share/licenses/$name
+
+	mv $PKG/usr/lib64 $PKG/usr/lib
+
+  	cd $PKG/usr/lib
+  	ln -sf libbrscandec3.so.1.0.0 libbrscandec3.so.1
+  	ln -sf libbrscandec3.so.1 libbrscandec3.so
+
+  	cd $PKG/usr/lib/sane
+  	ln -sf libsane-brother3.so.1.0.7 libsane-brother3.so.1
+  	ln -sf libsane-brother3.so.1 libsane-brother3.so
+
+}

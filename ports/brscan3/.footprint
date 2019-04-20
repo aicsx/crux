@@ -1,0 +1,32 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/udev/
+drwxr-xr-x	root/root	etc/udev/rules.d/
+-rw-r--r--	root/root	etc/udev/rules.d/50-brscan3.rules
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/brsaneconfig3 -> /usr/local/Brother/sane/brsaneconfig3
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libbrscandec3.so -> libbrscandec3.so.1
+lrwxrwxrwx	root/root	usr/lib/libbrscandec3.so.1 -> libbrscandec3.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libbrscandec3.so.1.0.0
+drwxr-xr-x	root/root	usr/lib/sane/
+lrwxrwxrwx	root/root	usr/lib/sane/libsane-brother3.so -> libsane-brother3.so.1
+lrwxrwxrwx	root/root	usr/lib/sane/libsane-brother3.so.1 -> libsane-brother3.so.1.0.7
+-rwxr-xr-x	root/root	usr/lib/sane/libsane-brother3.so.1.0.7
+drwxr-xr-x	root/root	usr/local/
+drwxr-xr-x	root/root	usr/local/Brother/
+drwxr-xr-x	root/root	usr/local/Brother/sane/
+-rw-r--r--	root/root	usr/local/Brother/sane/Brsane3.ini
+-rwxr-xr-x	root/root	usr/local/Brother/sane/brsaneconfig3
+-rw-r--r--	root/root	usr/local/Brother/sane/brsanenetdevice3.cfg
+drwxr-xr-x	root/root	usr/local/Brother/sane/models3/
+-rw-r--r--	root/root	usr/local/Brother/sane/models3/ext1.ini
+-rw-r--r--	root/root	usr/local/Brother/sane/models3/ext2.ini
+-rw-r--r--	root/root	usr/local/Brother/sane/models3/ext3.ini
+-rw-r--r--	root/root	usr/local/Brother/sane/models3/ext4.ini
+-rw-r--r--	root/root	usr/local/Brother/sane/models3/ext5.ini
+-rwxr-xr-x	root/root	usr/local/Brother/sane/setupSaneScan3
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/licenses/
+drwxr-xr-x	root/root	usr/share/licenses/brscan3/
+-rw-r--r--	root/root	usr/share/licenses/brscan3/LICENSE.html

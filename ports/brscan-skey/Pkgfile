@@ -1,0 +1,15 @@
+# Description: Brother DCP-197c Scan skey (brscan3)
+# URL: http://support.brother.com/g/s/id/linux/en
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: brscan3
+
+name=brscan-skey
+version=0.2.4
+release=1
+source=(http://www.brother.com/pub/bsc/linux/packages/$name-$version-1.x86_64.rpm) 
+build() {
+
+    	install -d $PKG/opt
+
+}
+
