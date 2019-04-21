@@ -1,16 +1,16 @@
 # Description: Simple Scanning Utility
 # URL: https://launchpad.net/simple-scan
 # Maintainer: ax, ax at slackware dot eu
-# Depends on: sane libgusb
+# Depends on: sane libgusb PackageKit
 
 name=simple-scan
-version=git
+version=3.32.2
 release=1
-source=(https://gitlab.gnome.org/GNOME/simple-scan/-/archive/master/simple-scan-master.tar.gz)
+source=(https://github.com/GNOME/$name/archive/$version.tar.gz)
 
 build() {
 	
-	cd $name-master
+	cd $name-$version
 	
 	meson build \
 		--prefix=/usr 

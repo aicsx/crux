@@ -1,0 +1,22 @@
+# Description: yelp-tools is a collection of scripts and build utilities to help create, manage, and publish documentation for Yelp and the web.
+# URL: https://github.com/GNOME/yelp-tools
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: yelp-xsl
+
+name=yelp-tools
+version=3.32.0
+release=1
+source=(https://github.com/GNOME/$name/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/man
+
+	make
+	make DESTDIR=$PKG install
+}
+

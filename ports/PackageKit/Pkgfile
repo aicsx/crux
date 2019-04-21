@@ -1,0 +1,26 @@
+# Description: PackageKit is a system designed to make installing and updating software on your computer easier. The primary design goal is to unify all the software graphical tools used in different distributions, and use some of the latest technology like PolicyKit. 
+# URL: https://www.freedesktop.org/software/PackageKit/
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: glib dbus gtk gtk3 libpng pango cairo polkit python3 cron
+
+name=PackageKit
+version=1.1.12
+release=1
+source=(https://www.freedesktop.org/software/$name/releases/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib \
+	--disable-systemd \
+	--disable-offline-update \
+	--disable-man-pages \
+	--enable-ports \
+	--enable-cron 
+
+	make
+	make DESTDIR=$PKG install
+
+}
+

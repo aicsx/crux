@@ -1,0 +1,21 @@
+# Description: yelp-xsl is a collection of programs and data files to help you build, maintain, and distribute documentation.
+# URL: https://github.com/GNOME/yelp-xsl
+# Maintainer: ax, ax at slackware dot eu
+# Depends on: intltool libxslt itstool
+
+name=yelp-xsl
+version=3.32.1
+release=1
+source=(https://github.com/GNOME/$name/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/man
+
+	make
+	make DESTDIR=$PKG install
+}
